@@ -8,13 +8,21 @@ package paquete01;
  *
  * @author utpl
  */
+import paquete02.Profesores;
+
 public class Ejecutor {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Profesores profesor1 = new Profesores(1270);
+                profesor1.calcularSueldoTotal();
+        Profesores profesor2 = new Profesores("Maria", "Martinez", "1700120101");
+        profesor2.calcularSueldoTotal();
+        
+        System.out.printf("%s",profesor1);
+        System.out.printf("%s",profesor2);
     }
-    
+
 }
