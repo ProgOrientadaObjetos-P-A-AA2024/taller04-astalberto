@@ -14,11 +14,11 @@ package paquete02;
  */
 public class LibretaNotas {
 
-    String nombre;
-    double calificacionMateria1;
-    double calificacionMateria2;
-    double calificacionMateria3;
-    double promedio;
+    private String nombre;
+    private double calificacionMateria1;
+    private double calificacionMateria2;
+    private double calificacionMateria3;
+    private double promedio;
 
     public LibretaNotas(String name) {
         nombre = name;
